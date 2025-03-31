@@ -93,7 +93,8 @@ void testDriver() {
     std::cout << "Account 1: $" << bank.accounts[1]->getBalance() << "\n";
 }
 
-int main() {
+int main()
+{ while(true){
     cout << "Choose 1 is testDriver, 2 is simulation: ";
     int choose;
     cin >> choose;
@@ -143,7 +144,7 @@ int main() {
     }
 	else {
 		cout << "Invalid input!";
-	}
+	}}
 
     return 0;
 }
