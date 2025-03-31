@@ -94,7 +94,7 @@ void testDriver() {
 }
 
 int main()
-{ while(true){
+  while(true){
     cout << "Choose 1 is testDriver, 2 is simulation: ";
     int choose;
     cin >> choose;
